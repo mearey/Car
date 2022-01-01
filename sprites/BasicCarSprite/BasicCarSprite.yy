@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 5,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a71c9ae8-3c4d-4d17-ba04-9ccf3e2fe0a6","path":"sprites/Sprite1/Sprite1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a71c9ae8-3c4d-4d17-ba04-9ccf3e2fe0a6","path":"sprites/Sprite1/Sprite1.yy",},"LayerId":{"name":"f4649e52-9395-4d0a-a412-b00b010b1031","path":"sprites/Sprite1/Sprite1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"resourceVersion":"1.0","name":"a71c9ae8-3c4d-4d17-ba04-9ccf3e2fe0a6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a71c9ae8-3c4d-4d17-ba04-9ccf3e2fe0a6","path":"sprites/BasicCarSprite/BasicCarSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a71c9ae8-3c4d-4d17-ba04-9ccf3e2fe0a6","path":"sprites/BasicCarSprite/BasicCarSprite.yy",},"LayerId":{"name":"f4649e52-9395-4d0a-a412-b00b010b1031","path":"sprites/BasicCarSprite/BasicCarSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"BasicCarSprite","path":"sprites/BasicCarSprite/BasicCarSprite.yy",},"resourceVersion":"1.0","name":"a71c9ae8-3c4d-4d17-ba04-9ccf3e2fe0a6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},
+    "spriteId": {"name":"BasicCarSprite","path":"sprites/BasicCarSprite/BasicCarSprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"66cd61f7-f228-4ab8-8ede-dbd2d9f12201","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a71c9ae8-3c4d-4d17-ba04-9ccf3e2fe0a6","path":"sprites/Sprite1/Sprite1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"66cd61f7-f228-4ab8-8ede-dbd2d9f12201","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a71c9ae8-3c4d-4d17-ba04-9ccf3e2fe0a6","path":"sprites/BasicCarSprite/BasicCarSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},
+    "parent": {"name":"BasicCarSprite","path":"sprites/BasicCarSprite/BasicCarSprite.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite1",
+    "name": "BasicCarSprite",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -69,11 +69,11 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cars",
+    "path": "folders/Sprites/Cars.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite1",
+  "name": "BasicCarSprite",
   "tags": [],
   "resourceType": "GMSprite",
 }

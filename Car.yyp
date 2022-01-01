@@ -1,9 +1,20 @@
 {
   "resources": [
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
+    {"id":{"name":"Hub","path":"objects/Hub/Hub.yy",},"order":0,},
+    {"id":{"name":"TireParticle","path":"sprites/TireParticle/TireParticle.yy",},"order":0,},
+    {"id":{"name":"BasicEnemySprite","path":"sprites/BasicEnemySprite/BasicEnemySprite.yy",},"order":1,},
+    {"id":{"name":"RoadTiles","path":"tilesets/RoadTiles/RoadTiles.yy",},"order":1,},
+    {"id":{"name":"BasicShot","path":"objects/BasicShot/BasicShot.yy",},"order":0,},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":2,},
+    {"id":{"name":"BasicShotSprite","path":"sprites/BasicShotSprite/BasicShotSprite.yy",},"order":0,},
+    {"id":{"name":"InitialiseParticles","path":"scripts/InitialiseParticles/InitialiseParticles.yy",},"order":1,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":9,},
+    {"id":{"name":"BasicEnemy","path":"objects/BasicEnemy/BasicEnemy.yy",},"order":0,},
+    {"id":{"name":"BasicCarSprite","path":"sprites/BasicCarSprite/BasicCarSprite.yy",},"order":0,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":0,},
+    {"id":{"name":"FloorGeneration","path":"scripts/FloorGeneration/FloorGeneration.yy",},"order":0,},
+    {"id":{"name":"HubRoom","path":"rooms/HubRoom/HubRoom.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -20,7 +31,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"HubRoom","path":"rooms/HubRoom/HubRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -37,6 +48,13 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Tilesets.yy","order":4,"resourceVersion":"1.0","name":"Tilesets","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Cars.yy","order":6,"resourceVersion":"1.0","name":"Cars","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Particles.yy","order":7,"resourceVersion":"1.0","name":"Particles","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Projetiles.yy","order":8,"resourceVersion":"1.0","name":"Projetiles","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Enemies.yy","order":3,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/WorldObjects.yy","order":4,"resourceVersion":"1.0","name":"WorldObjects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Projectiles.yy","order":5,"resourceVersion":"1.0","name":"Projectiles","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

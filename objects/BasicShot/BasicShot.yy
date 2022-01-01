@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "BasicCarSprite",
-    "path": "sprites/BasicCarSprite/BasicCarSprite.yy",
+    "name": "BasicShotSprite",
+    "path": "sprites/BasicShotSprite/BasicShotSprite.yy",
   },
   "solid": true,
   "visible": true,
@@ -20,10 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":1.0,"y":6.0,},
-    {"x":30.0,"y":6.0,},
-    {"x":30.0,"y":26.0,},
-    {"x":1.0,"y":26.0,},
+    {"x":5.0,"y":5.0,},
+    {"x":11.0,"y":5.0,},
+    {"x":11.0,"y":11.0,},
+    {"x":5.0,"y":11.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -32,11 +32,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Projectiles",
+    "path": "folders/Objects/Projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Player",
+  "name": "BasicShot",
   "tags": [],
   "resourceType": "GMObject",
 }

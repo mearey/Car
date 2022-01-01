@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "BasicCarSprite",
-    "path": "sprites/BasicCarSprite/BasicCarSprite.yy",
+    "name": "BasicEnemySprite",
+    "path": "sprites/BasicEnemySprite/BasicEnemySprite.yy",
   },
   "solid": true,
   "visible": true,
@@ -20,9 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":1.0,"y":6.0,},
-    {"x":30.0,"y":6.0,},
-    {"x":30.0,"y":26.0,},
+    {"x":1.0,"y":5.0,},
+    {"x":32.0,"y":5.0,},
+    {"x":32.0,"y":26.0,},
     {"x":1.0,"y":26.0,},
   ],
   "eventList": [
@@ -32,11 +32,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Player",
+  "name": "BasicEnemy",
   "tags": [],
   "resourceType": "GMObject",
 }
